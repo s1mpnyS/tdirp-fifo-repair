@@ -1,0 +1,204 @@
+{
+  "utc": "2026-11-15T10:33:37.357780+00:00",
+  "cells": [
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_15_30_4.txt",
+      "initial": "inputs/start-9f048b50a0b58b06.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-deed5b4590a3c608.json",
+      "block": [
+        1,
+        2,
+        4,
+        9
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H6/inst_15_30_4.txt",
+      "initial": "inputs/start-6e93190e690df3ca.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-73421ba6482e8590.json",
+      "block": [
+        0,
+        4,
+        8,
+        9
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_25_120_5.txt",
+      "initial": "inputs/start-e2a05daaa9d972e7.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-b0058de4678f921d.json",
+      "block": [
+        1,
+        4,
+        6,
+        23
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H6/inst_20_30_4.txt",
+      "initial": "inputs/start-db77ccf5a714fd09.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-0b55fe04b47069f2.json",
+      "block": [
+        5,
+        6,
+        11,
+        15
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_20_120_5.txt",
+      "initial": "inputs/start-aa7637b72c03a5d1.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-e39e3aedaff55841.json",
+      "block": [
+        0,
+        5,
+        9,
+        17
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_15_120_5.txt",
+      "initial": "inputs/start-c14663a3a834da93.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-5a25f67086589278.json",
+      "block": [
+        0,
+        7,
+        9,
+        10
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_30_30_4.txt",
+      "initial": "inputs/start-91ed6a224ae18a5a.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-305e31b2efc04154.json",
+      "block": [
+        3,
+        10,
+        18,
+        21
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_25_30_4.txt",
+      "initial": "inputs/start-53a56044059c313e.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-2a2eac796f45078e.json",
+      "block": [
+        1,
+        5,
+        16,
+        24
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H6/inst_15_120_5.txt",
+      "initial": "inputs/start-ec179a8abfb77229.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-7909ba04d024972d.json",
+      "block": [
+        5,
+        6,
+        8,
+        10
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_20_30_4.txt",
+      "initial": "inputs/start-5ac45f44807740e6.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-e8e16642e4759306.json",
+      "block": [
+        13,
+        14,
+        17,
+        18
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H3/inst_30_120_5.txt",
+      "initial": "inputs/start-4660d8be0d96ef69.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-cf0073c4e82e877c.json",
+      "block": [
+        2,
+        3,
+        24,
+        28
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    },
+    {
+      "cohort": "compact_arc",
+      "input": "H6/inst_20_120_5.txt",
+      "initial": "inputs/start-bfa34bafcb255eb3.json",
+      "method": "warm_arc",
+      "budget": 25.0,
+      "local": 20,
+      "block_file": "inputs/block-984667241856eb74.json",
+      "block": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "archive": "/workspace/tdirp-conditional-fifo-profiles/code/data/Benchmark.zip"
+    }
+  ],
+  "bundle_manifest_sha256": "9848f757ddad1a21af75d6970ce6723da7021665979afa15de054b6eeb40bae8",
+  "resource": "Linux process-tree sampled RSS",
+  "historical_starts": true,
+  "pilot_journaling": "compact latest verified endpoint",
+  "archive_sha256": "90f4b2e5705f43d1a1b2a574ea2f2ac35c443c04fedff8ebf77ac6fecb0e093c",
+  "reused_source_run": null,
+  "reused_cells_planned": 0
+}

@@ -1,0 +1,453 @@
+{
+  "compact_arc": {
+    "assigned_rows_in_file": 36,
+    "rows_with_eligible_publication": 24,
+    "mean_worker_wall_seconds": 0.2122466277796775,
+    "mean_percent_gain_from_start": 2.1584364351563705,
+    "paired_descriptive_contrasts": [
+      {
+        "first": "joint_dp",
+        "second": "warm_arc",
+        "budget": 25.0,
+        "start_kind": null,
+        "state": null,
+        "k": null,
+        "matched_pairs": 12,
+        "pairs_in_advantage": 12,
+        "mean_percentage_points": 3.2376546527345558,
+        "wins_ties_losses": [
+          12,
+          0,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "joint_dp",
+        "second": "joint_greedy",
+        "budget": 25.0,
+        "start_kind": null,
+        "state": null,
+        "k": null,
+        "matched_pairs": 12,
+        "pairs_in_advantage": 12,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          12,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      }
+    ]
+  },
+  "interleaving": {
+    "assigned_rows_in_file": 288,
+    "rows_with_eligible_publication": 288,
+    "mean_worker_wall_seconds": 0.3166990109538246,
+    "mean_percent_gain_from_start": 2.1431728897937163,
+    "paired_descriptive_contrasts": [
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_contiguous_exact_pure",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "E",
+        "k": 4,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          16,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_contiguous_exact_pure",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "E",
+        "k": 6,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.007439087560798176,
+        "wins_ties_losses": [
+          1,
+          15,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_contiguous_exact_pure",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "E",
+        "k": 8,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.007439087560798176,
+        "wins_ties_losses": [
+          1,
+          15,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_contiguous_exact_pure",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "I",
+        "k": 4,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 3.2350330734578576,
+        "wins_ties_losses": [
+          16,
+          0,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_contiguous_exact_pure",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "I",
+        "k": 6,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 4.636395626944163,
+        "wins_ties_losses": [
+          16,
+          0,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_contiguous_exact_pure",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "I",
+        "k": 8,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 5.692721311072062,
+        "wins_ties_losses": [
+          16,
+          0,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "E",
+        "k": 4,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          16,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "E",
+        "k": 6,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          16,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "E",
+        "k": 8,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          16,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "I",
+        "k": 4,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          16,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "I",
+        "k": 6,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.012961195771999444,
+        "wins_ties_losses": [
+          2,
+          14,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 15.0,
+        "start_kind": null,
+        "state": "I",
+        "k": 8,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.018253157758101466,
+        "wins_ties_losses": [
+          3,
+          13,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      }
+    ]
+  },
+  "paired": {
+    "assigned_rows_in_file": 48,
+    "rows_with_eligible_publication": 48,
+    "mean_worker_wall_seconds": 0.3456007334122357,
+    "mean_percent_gain_from_start": 6.571861993479576,
+    "paired_descriptive_contrasts": [
+      {
+        "first": "joint_dp",
+        "second": "joint_greedy",
+        "budget": 10.0,
+        "start_kind": null,
+        "state": null,
+        "k": null,
+        "matched_pairs": 24,
+        "pairs_in_advantage": 24,
+        "mean_percentage_points": 0.0312586234313735,
+        "wins_ties_losses": [
+          6,
+          18,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      }
+    ]
+  },
+  "quantity": {
+    "assigned_rows_in_file": 64,
+    "rows_with_eligible_publication": 64,
+    "mean_worker_wall_seconds": 0.32454687775316415,
+    "mean_percent_gain_from_start": 5.622452551131807,
+    "paired_descriptive_contrasts": [
+      {
+        "first": "full",
+        "second": "fixed",
+        "budget": 10.0,
+        "start_kind": null,
+        "state": null,
+        "k": null,
+        "matched_pairs": 16,
+        "pairs_in_advantage": 16,
+        "mean_percentage_points": 0.38315085428616485,
+        "wins_ties_losses": [
+          15,
+          1,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      }
+    ]
+  },
+  "workflow": {
+    "assigned_rows_in_file": 36,
+    "rows_with_eligible_publication": 36,
+    "mean_worker_wall_seconds": 51.85095929988893,
+    "mean_percent_gain_from_start": 11.374837681000844,
+    "paired_descriptive_contrasts": [
+      {
+        "first": "joint_dp_polish",
+        "second": "two_stage_irp_fifo",
+        "budget": 300.0,
+        "start_kind": "consolidation",
+        "state": null,
+        "k": null,
+        "matched_pairs": 2,
+        "pairs_in_advantage": 2,
+        "mean_percentage_points": 0.028800646751361153,
+        "wins_ties_losses": [
+          1,
+          1,
+          0
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "joint_dp_polish",
+        "second": "two_stage_irp_fifo",
+        "budget": 60.0,
+        "start_kind": "consolidation",
+        "state": null,
+        "k": null,
+        "matched_pairs": 8,
+        "pairs_in_advantage": 8,
+        "mean_percentage_points": 0.06172276146760234,
+        "wins_ties_losses": [
+          3,
+          2,
+          3
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      },
+      {
+        "first": "joint_dp_polish",
+        "second": "two_stage_irp_fifo",
+        "budget": 60.0,
+        "start_kind": "original",
+        "state": null,
+        "k": null,
+        "matched_pairs": 8,
+        "pairs_in_advantage": 8,
+        "mean_percentage_points": -0.11057811658689677,
+        "wins_ties_losses": [
+          1,
+          4,
+          3
+        ],
+        "median_paired_first_call_ratio": null,
+        "timing_pairs": 0
+      }
+    ]
+  },
+  "decoder_pilot": {
+    "assigned_rows_in_file": 72,
+    "rows_with_eligible_publication": 72,
+    "mean_worker_wall_seconds": 27.54756760920928,
+    "mean_percent_gain_from_start": 0.45366787544772635,
+    "paired_descriptive_contrasts": [
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 30.0,
+        "start_kind": null,
+        "state": null,
+        "k": 10,
+        "matched_pairs": 12,
+        "pairs_in_advantage": 12,
+        "mean_percentage_points": 0.11211262539731191,
+        "wins_ties_losses": [
+          2,
+          10,
+          0
+        ],
+        "median_paired_first_call_ratio": 0.9010984941008082,
+        "timing_pairs": 12
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 30.0,
+        "start_kind": null,
+        "state": null,
+        "k": 6,
+        "matched_pairs": 12,
+        "pairs_in_advantage": 12,
+        "mean_percentage_points": 0.0,
+        "wins_ties_losses": [
+          0,
+          12,
+          0
+        ],
+        "median_paired_first_call_ratio": 0.8706478159675162,
+        "timing_pairs": 11
+      },
+      {
+        "first": "fifo_free_exact",
+        "second": "fifo_greedy_legacy",
+        "budget": 30.0,
+        "start_kind": null,
+        "state": null,
+        "k": 8,
+        "matched_pairs": 12,
+        "pairs_in_advantage": 12,
+        "mean_percentage_points": 0.03110250963860921,
+        "wins_ties_losses": [
+          1,
+          10,
+          1
+        ],
+        "median_paired_first_call_ratio": 0.8785392100814138,
+        "timing_pairs": 12
+      }
+    ]
+  },
+  "hgs": {
+    "assigned_rows_in_file": 20,
+    "rows_with_eligible_publication": 20,
+    "mean_worker_wall_seconds": 10.621347970084752,
+    "mean_percent_gain_from_start": 4.33619421431034,
+    "paired_descriptive_contrasts": []
+  }
+}

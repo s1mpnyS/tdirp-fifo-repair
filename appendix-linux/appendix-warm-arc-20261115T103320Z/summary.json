@@ -1,0 +1,9 @@
+{
+  "compact_arc": {
+    "assigned_rows_in_file": 12,
+    "rows_with_eligible_publication": 12,
+    "mean_worker_wall_seconds": 17.287648974995438,
+    "mean_percent_gain_from_start": 1.1583243735444997,
+    "paired_descriptive_contrasts": []
+  }
+}

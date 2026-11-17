@@ -1,0 +1,248 @@
+{
+  "refs": {
+    "original_linux": "34edd0b38ee9d5718e4d5fecc7bad0b2c95e06dd",
+    "warm_arc_linux": "87a415bb7ebff12261104d8b9b3f3aba394008fc"
+  },
+  "cpu": "Intel(R) Core(TM) Ultra 7 265F",
+  "verified_warm_arc_cells": 12,
+  "exact_profiles": {
+    "timely": 12,
+    "optimal_cost": 12,
+    "own_proofs": 12
+  },
+  "greedy_profiles": {
+    "timely": 12,
+    "optimal_cost": 12,
+    "own_proofs": 0
+  },
+  "warm_arc": {
+    "timely": 12,
+    "optimal_cost": 2,
+    "own_proofs": 2
+  },
+  "mean_exact_advantage_over_warm_arc_pp": 2.0793302791900583,
+  "warm_arc_worker_wall_seconds": 207.45178769994527,
+  "median_warm_arc_local_seconds": 19.03913966252003,
+  "warm_arc_matched_reference_inputs": [
+    "H3/inst_15_30_4.txt",
+    "H6/inst_15_30_4.txt"
+  ],
+  "cases": [
+    {
+      "input": "H3/inst_15_30_4.txt",
+      "block": [
+        1,
+        2,
+        4,
+        9
+      ],
+      "canonical_start_cost": 13731.66,
+      "exact_profile_reference": 13023.22,
+      "warm_arc_cost": 13023.22,
+      "warm_arc_hit": true,
+      "warm_arc_own_proof": true,
+      "local_seconds": 3.4768552638124675,
+      "worker_wall_seconds": 3.739683263003826,
+      "sampled_tree_rss_mib": 150.79296875,
+      "objective_advantage_over_arc_pp": 0.0
+    },
+    {
+      "input": "H6/inst_15_30_4.txt",
+      "block": [
+        0,
+        4,
+        8,
+        9
+      ],
+      "canonical_start_cost": 27694.6,
+      "exact_profile_reference": 26653.2,
+      "warm_arc_cost": 26653.2,
+      "warm_arc_hit": true,
+      "warm_arc_own_proof": true,
+      "local_seconds": 10.260471577057615,
+      "worker_wall_seconds": 10.493696461897343,
+      "sampled_tree_rss_mib": 181.01171875,
+      "objective_advantage_over_arc_pp": 0.0
+    },
+    {
+      "input": "H3/inst_25_120_5.txt",
+      "block": [
+        1,
+        4,
+        6,
+        23
+      ],
+      "canonical_start_cost": 18023.44,
+      "exact_profile_reference": 17412.16,
+      "warm_arc_cost": 18023.44,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.08754320302978,
+      "worker_wall_seconds": 19.387183626182377,
+      "sampled_tree_rss_mib": 641.38671875,
+      "objective_advantage_over_arc_pp": 3.391583404721851
+    },
+    {
+      "input": "H6/inst_20_30_4.txt",
+      "block": [
+        5,
+        6,
+        11,
+        15
+      ],
+      "canonical_start_cost": 35376.92,
+      "exact_profile_reference": 33947.58,
+      "warm_arc_cost": 35376.92,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.03019081405364,
+      "worker_wall_seconds": 19.288006163900718,
+      "sampled_tree_rss_mib": 368.25,
+      "objective_advantage_over_arc_pp": 4.040317811725837
+    },
+    {
+      "input": "H3/inst_20_120_5.txt",
+      "block": [
+        0,
+        5,
+        9,
+        17
+      ],
+      "canonical_start_cost": 16178.69,
+      "exact_profile_reference": 15833.62,
+      "warm_arc_cost": 16178.69,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.16803072206676,
+      "worker_wall_seconds": 19.38025566795841,
+      "sampled_tree_rss_mib": 569.78515625,
+      "objective_advantage_over_arc_pp": 2.1328673705967542
+    },
+    {
+      "input": "H3/inst_15_120_5.txt",
+      "block": [
+        0,
+        7,
+        9,
+        10
+      ],
+      "canonical_start_cost": 12639.37,
+      "exact_profile_reference": 12054.09,
+      "warm_arc_cost": 12332.59,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.048088510986418,
+      "worker_wall_seconds": 19.286196573171765,
+      "sampled_tree_rss_mib": 461.7265625,
+      "objective_advantage_over_arc_pp": 2.2034326077961164
+    },
+    {
+      "input": "H3/inst_30_30_4.txt",
+      "block": [
+        3,
+        10,
+        18,
+        21
+      ],
+      "canonical_start_cost": 21068.34,
+      "exact_profile_reference": 20645.1,
+      "warm_arc_cost": 21024.74,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.02244788291864,
+      "worker_wall_seconds": 19.285648464923725,
+      "sampled_tree_rss_mib": 358.8046875,
+      "objective_advantage_over_arc_pp": 1.8019454783813058
+    },
+    {
+      "input": "H3/inst_25_30_4.txt",
+      "block": [
+        1,
+        5,
+        16,
+        24
+      ],
+      "canonical_start_cost": 19338.07,
+      "exact_profile_reference": 18560.78,
+      "warm_arc_cost": 19338.07,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.016585350967944,
+      "worker_wall_seconds": 19.277355832979083,
+      "sampled_tree_rss_mib": 348.8671875,
+      "objective_advantage_over_arc_pp": 4.019480744458987
+    },
+    {
+      "input": "H6/inst_15_120_5.txt",
+      "block": [
+        5,
+        6,
+        8,
+        10
+      ],
+      "canonical_start_cost": 28563.3,
+      "exact_profile_reference": 27773.15,
+      "warm_arc_cost": 28563.3,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.083421875024214,
+      "worker_wall_seconds": 19.27859210805036,
+      "sampled_tree_rss_mib": 530.96875,
+      "objective_advantage_over_arc_pp": 2.766312015768486
+    },
+    {
+      "input": "H3/inst_20_30_4.txt",
+      "block": [
+        13,
+        14,
+        17,
+        18
+      ],
+      "canonical_start_cost": 17325.6,
+      "exact_profile_reference": 16631.09,
+      "warm_arc_cost": 16919.09,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.01451415102929,
+      "worker_wall_seconds": 19.27075540390797,
+      "sampled_tree_rss_mib": 253.86328125,
+      "objective_advantage_over_arc_pp": 1.662280094195872
+    },
+    {
+      "input": "H3/inst_30_120_5.txt",
+      "block": [
+        2,
+        3,
+        24,
+        28
+      ],
+      "canonical_start_cost": 21999.86,
+      "exact_profile_reference": 21831.95,
+      "warm_arc_cost": 21999.86,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.05594574799761,
+      "worker_wall_seconds": 19.277066209120676,
+      "sampled_tree_rss_mib": 656.8203125,
+      "objective_advantage_over_arc_pp": 0.7632321296590069
+    },
+    {
+      "input": "H6/inst_20_120_5.txt",
+      "block": [
+        1,
+        4,
+        5,
+        7
+      ],
+      "canonical_start_cost": 36226.02,
+      "exact_profile_reference": 35439.73,
+      "warm_arc_cost": 36226.02,
+      "warm_arc_hit": false,
+      "warm_arc_own_proof": false,
+      "local_seconds": 19.221685617929325,
+      "worker_wall_seconds": 19.48734792484902,
+      "sampled_tree_rss_mib": 698.44921875,
+      "objective_advantage_over_arc_pp": 2.170511692976485
+    }
+  ]
+}

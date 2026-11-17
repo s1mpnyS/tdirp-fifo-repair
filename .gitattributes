@@ -1,0 +1,3 @@
+# Frozen source, starting plans and manifests bind literal bytes.
+# Preserve them on every platform instead of applying CRLF/LF conversion.
+* -text
